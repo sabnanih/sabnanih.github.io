@@ -1,2 +1,3 @@
-# sabnanih.github.io
-Website to host my DS and ML work
+sabnanih.github.io
+=====================
+This is a site created for hosting my webpage, using template provided by [Jonathan McGlone](http://jmcglone.com) leveraging GitHub Pages and Jekyll.

@@ -1,0 +1,12 @@
+name: Hitesh Sabnani
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+
+staticman_url: https://staticman-own-version.herokuapp.com/v2/entry/sabnanih/sabnanih.github.io/master/comments
+
+reCaptcha:
+    enabled: true
+    siteKey: 6LcWIvsUAAAAALQkwSPwf6WEfQDA38XhVFol9SXx
+    secret: W0zRBi6v0vnqB0lSWoMrjsYT/4kb6icEBixblCgYkw4Rwy5mfXzfy2zUPTQVF39Z4yPgkeLRHxw1MhOAEru472A/x66lIALGp2sP053dwrW0jV6zh4a04Z3jrXnxk9DmU79nTPPrZikydcPZ6uiEE9DGYTtLbDgO9Xbov8dg9lrf2IrQVD1MSD9RRZxRrpoDfX10TzbuXXzIaSb7fW87OWgf+/xpCvdAl+MeStu/d8uwn5WXfUJpQVYqULtaHY/YTxKBSp9EI9dJlnTFvlc+9dXgARJFJWJDlHhNlsd5/l4atceFWc2KhwEjUlrgaXrB9K/lRt7HiNjth2K82RWrdJlNc8EejAe5lYRWHKzfnjOdVNRJsLvhst7HTWzs1eOSuTlKglJhxplxO7V1bYaWKbnftozTc9RwR5OSwqH++Pvr22dcoK5Z5FtF01t/YvSUDiv4fFXloQtTQr2o9YOOLabTEMuln57X+CMfBcapTG2laUkBs1y4E7uncvfMccn16mSAcZnBhJjdxpvA7UADDyd9/jWq9btdPObLAtE06+msgZoLUtJuuOVwfQiJdYcLuJCHcF0A+rfBpm39Qmj1azgai4usQeBFXzs6A2sJOej52JZJlfBPkEYSWRE42067f4QCyUyshBmbM5N+vWz6jY9Dg7lhcJz7mDBEb0nSg8s=
+
+

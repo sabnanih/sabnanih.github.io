@@ -20,3 +20,7 @@ Details here:
 <a href="https://github.com/sabnanih/ames-housing-regression/blob/master/Ames.ipynb" target="_blank" rel="nofollow">Ames Regression</a>
 <a href="https://github.com/sabnanih/titanic-survivor-classification/blob/master/Titanic.ipynb" target="_blank" rel="nofollow">Titanic Classification</a>  
 
+**IMDB TV Series Analysis**
+This project looked at various questions for IMDB TV Series dataset - like if certain tv series are overrated / underrated, their consistency, did the TV series cancel early or was too long, analysis of variables over time - like genres, new series; evidence for ageism and rating discrimination over gender of lead actor.
+Details here:
+<a href="https://sabnanih.github.io/blog/2020/05/25/IMDB-TV-Series-Analysis" target="_blank" rel="nofollow">IMDB Analysis Part 1</a>

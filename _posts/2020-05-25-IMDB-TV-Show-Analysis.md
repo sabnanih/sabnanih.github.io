@@ -102,7 +102,7 @@ Finally, I look at the range of ratings for 100 most popular completed series. S
 
 ![Image](/images/fig11.png)
 
-This concludes part 1 of the IMDB TV Series Analysis. Part 2 will be coming up soon which includes analysis of various variables over time - like genres, new series, and evidence for ageism and rating discrimination over gender (shows with lead actor v/s lead actress).
+This concludes part 1 of the IMDB TV Series Analysis. Part 2 will be coming up soon which includes analysis of various variables over time - like genres, new series, and tests for evidence for ageism and rating discrimination over gender (shows with lead actor v/s lead actress).
 
 {% if page.comments == true %}
   {% include comments.html %}

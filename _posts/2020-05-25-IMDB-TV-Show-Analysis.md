@@ -1,5 +1,5 @@
 ---
-title: IMDB TV Series Analysis
+title: IMDB TV Show Analysis
 comments: true
 ---
 

@@ -19,21 +19,21 @@ comments: true
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-In this post, I present the results of analysis of TV shows using <a href="https://datasets.imdbws.com" target="_blank" rel="nofollow noopener noreferrer">IMDB data</a>. IMDB is a large online database of information about movies, TV shows, video games among other content. For this analysis, I have focused on ratings for TV Series, TV miniseries, and episodes. The data was downloaded on $$14th$$ $$May$$ $$2020$$. Complete dataset documentation can be found <a href="https://www.imdb.com/interfaces/" target="_blank" rel="nofollow noopener noreferrer">here</a>. In the rest of the post, I discuss primarily 3 questions - are certain TV shows overrated or underrated, which TV shows are amongst the most or least consistent, and which TV series canceled too early and which ones went on far too long.
+In this post, I present the results of analysis of TV shows using <a href="https://datasets.imdbws.com" target="_blank" rel="nofollow noopener noreferrer">IMDB data</a>. IMDB is a large online database of information about movies, TV shows, video games among other content. For this analysis, I have focused on ratings for TV Series, TV miniseries, and episodes. The data was downloaded on $$14th$$ $$May$$ $$2020$$. Complete dataset documentation can be found <a href="https://www.imdb.com/interfaces/" target="_blank" rel="nofollow noopener noreferrer">here</a>. In the rest of the post, I discuss primarily 3 questions - are certain TV shows overrated or underrated, which TV shows are among the most or least consistent, and which TV series canceled too early and which ones went on far too long.
 
 ## Introduction
 
-I begin by looking at some exploratory plots for distribution of ratings. In Fig 1 below, it can be seen through the histogram of ratings that they are somewhat negatively skewed but most of them are between 6 and 9. Among the popular TV shows (with atleast 5,000 votes), the distribution is much more concentrated in 6-9 range.
+I begin by looking at some exploratory plots for distribution of ratings. In Fig 1 below, it can be seen through the histogram of ratings that they are somewhat negatively skewed but most of them are between 6 and 9. Among the popular TV shows (with at least 5,000 votes), the distribution is much more concentrated in 6-9 range.
 
 ![Image](/images/fig1.png)
 
 ## Are certain TV shows overrated / underrated?
 
-First, I wanted to compare differences between show ratings and their episodes. Instead of looking at show ratings, we can also look at the median rating of their episodes. In theory, both of these ratings should be close to each other. So, in Fig 2 below, I created an interactive plot of TV show rating against median episode rating for shows with atleast 5,000 votes and with median episode votes of atleast 250. This allows us to create a definition of underrated and overrated shows - the shows for which majority of the episodes are rated below the show rating is overrated and similarly, if majority of episodes are higher than show rating, it is underrated. In Fig 2, overrated shows are above the green equivalence line and underrated series are below. I define a simple measure of deviation between show rating and median episode rating (Relative rating deviation). 
+First, I wanted to compare differences between show ratings and their episodes. Instead of looking at show ratings, we can also look at the median rating of their episodes. In theory, both of these ratings should be close to each other. So, in Fig 2 below, I created an interactive plot of TV show rating against median episode rating for shows with at least 5,000 votes and with median episode votes of at least 250. This allows us to create a definition of underrated and overrated shows - the shows for which majority of the episodes are rated below the show rating is overrated and similarly, if majority of episodes are higher than show rating, it is underrated. In Fig 2, overrated shows are above the green equivalence line and underrated series are below. I define a simple measure of deviation between show rating and median episode rating (Relative rating deviation). 
 
 $$\delta$$ $$(\%) = (Show Rating - Median Episode Rating)$$ $$/$$ $$Series Rating * 100 \% $$
 
-Higher and positive values of $$\delta$$ imply more overratedness and lower and negative values imply underratedness. According to this measure, we can see some of the heavily underrated shows - *Batwoman* $$(\delta = -71.43)$$, *Roswell, New Mexico* $$(\delta = -36.07)$$, and *Shadowhunters* $$(\delta = -34.85)$$. Similarly, among the most overrated shows are *The Simpsons* $$(\delta = 19.54)$$, *Mastes of Horror* $$(\delta = 16)$$, and *Twilight Zone* $$(\delta = 15)$$.
+Higher and positive values of $$\delta$$ imply more overratedness and lower and negative values imply underratedness. According to this measure, we can see some of the heavily underrated shows - *Batwoman* $$(\delta = -71.43)$$, *Roswell, New Mexico* $$(\delta = -36.07)$$, and *Shadowhunters* $$(\delta = -34.85)$$. Similarly, among the most overrated shows are *The Simpsons* $$(\delta = 19.54)$$, *Masters of Horror* $$(\delta = 16)$$, and *Twilight Zone* $$(\delta = 15)$$.
 
 {% include fig2.html %}
 
@@ -48,7 +48,7 @@ It is interesting that older shows tend to show higher values of $$\delta$$. It 
 
 ![Image](/images/fig3b.png)
 
-I also look at variation in $$\delta$$ by genre. Each title in IMDB dataset can be associated with maximum of 3 genres. in Fig 4a below, we can see that *Animation* and *Documentary* shows tend to have higher $$\delta$$ compared to other genres and thus are more overrated. Note that since each TV show can have 3 genres, the outlier TV shows can be represented by a maximum of 3 points on this plot.
+I also look at variation in $$\delta$$ by genre. Each title in IMDB dataset can be associated with maximum of 3 genres. In Fig 4a below, we can see that *Animation* and *Documentary* shows tend to have higher $$\delta$$ compared to other genres and thus are more overrated. Note that since each TV show can have 3 genres, the outlier TV shows can be represented by a maximum of 3 points on this plot.
 
 {% include fig4a.html %}
 
@@ -60,7 +60,7 @@ Finally, I created an interactive plot to visualize $$\delta$$ by genre and TV s
 
 {% include fig5.html %}
 
-## Which shows are amongst the most / least consistent?
+## Which shows are among the most / least consistent?
 Next, I look at rating consistency in TV episodes.  For a measure of rating consistency, I defined a simple metric of Relative standard deviation.
 
 $$\gamma$$ $$(\%) = Standard Deviation Episode Rating$$ $$/$$ $$Mean Episode Rating * 100 \% $$
@@ -86,15 +86,15 @@ One of the reasons for some genres to be more consistent could be that these ser
 {% include fig8b.html %}
 
 ## Did the series cancel early or went on far too long?
-For this section, I filter the titles by TV Series and exclude miniseries as those are only 1 season long. To look at which series cancel early v/s those that went too far, I first plot episode rating by season number for episodes with atleast 250 votes. In Fig 9 below, we can see that median rating is highest around 2-4 seasons and starts falling after that. After season 8, there is gradual bigger drop. Based on this, generally anywhere between seasons 2 and 4 is the ideal length of a tv series. This plot is very similar to one obtained <a href="https://letstalkdata.com/2013/02/imdb-television-series-data/" target="_blank" rel="nofollow noopener noreferrer">here</a> based on data from 2013.
+For this section, I filter the titles by TV Series and exclude miniseries as those are only 1 season long. To look at which series cancel early v/s those that went too far, I first plot episode rating by season number for episodes with at least 250 votes. In Fig 9 below, we can see that median rating is highest around 2-4 seasons and starts falling after that. After season 8, there is gradual bigger drop. Based on this, generally anywhere between seasons 2 and 4 is the ideal length of a TV series. This plot is very similar to one obtained <a href="https://letstalkdata.com/2013/02/imdb-television-series-data/" target="_blank" rel="nofollow noopener noreferrer">here</a> based on data from 2013.
 
 ![Image](/images/fig9.png)
 
-Instead of defining a common peak for all series, we can also look at their peaks separately. In Fig 10 below, I have created an interactive plot between final season median rating against median rating among all seasons prior to the peak season. Peak for a series is defined as the season with highest median rating. By definition, thus all series with 1 season will lie on the straight green line which signifies equivalence of final season rating and prior peak rating. The size of the circle on the graph is proportional to absolute difference between prior and post peak rating. So, the series that went on for far too long can be either ones with very big circles or very far below the equivalence line. Some of these series from former category are *Are You Afraid of the Dark?*, *Lethal Weapon* and *Misfits*. The ones from latter category are *Two and Half Men*, *Scrubs* and *Game of Thrones*. *House of Cards* falls in both these categories. The final season of *Game of Thrones* was eagerly awaited but ultimately <a href="https://www.looper.com/153393/what-went-wrong-with-game-of-thrones/" target="_blank" rel="nofollow noopener noreferrer">disappointing</a>. *House of Cards'* bad ratings in the final season may have had something to do with *Kevin Spacey's* character being removed in the final season - due to sexual misconduct allegations against him. For *Scrubs*, the final season got rid of most of the full time cast from previous seasons and was more suited to be a separate spin-off series.  Regarding series that ended too soon - we can count them as series with 1-2 seasons either falling on the line or above it in the greater than 8.5 range before peak. Some of these series are *Cosmos: A Spacetime Odyssey*, *Fawlty Towers*, *Cosmos (1980)*, and *Firefly*.  *Freaks and Geeks* is also one of the series whose name comes up usually in such a dicussion.
+Instead of defining a common peak for all series, we can also look at their peaks separately. In Fig 10 below, I have created an interactive plot between final season median rating against median rating among all seasons prior to the peak season. Peak for a series is defined as the season with highest median rating. By definition, thus all series with 1 season will lie on the straight green line which signifies equivalence of final season rating and prior peak rating. The size of the circle on the graph is proportional to absolute difference between prior and post peak rating. So, the series that went on for far too long can be either ones with very big circles or very far below the equivalence line. Some of these series from former category are *Are You Afraid of the Dark?*, *Lethal Weapon* and *Misfits*. The ones from latter category are *Two and Half Men*, *Scrubs* and *Game of Thrones*. *House of Cards* falls in both these categories. The final season of *Game of Thrones* was eagerly awaited but ultimately <a href="https://www.looper.com/153393/what-went-wrong-with-game-of-thrones/" target="_blank" rel="nofollow noopener noreferrer">disappointing</a>. *House of Cards'* bad ratings in the final season may have had something to do with *Kevin Spacey's* character being removed in the final season - due to sexual misconduct allegations against him. For *Scrubs*, the final season got rid of most of the full time cast from previous seasons and was more suited to be a separate spin-off series.  Regarding series that ended too soon - we can count them as series with 1-2 seasons either falling on the line or above it in the greater than 8.5 range before peak. Some of these series are *Cosmos: A Spacetime Odyssey*, *Fawlty Towers*, *Cosmos (1980)*, and *Firefly*.  *Freaks and Geeks* is also one of the series whose name comes up usually in such a discussion.
 
 {% include fig10.html %}
 
-**Note: This plot only includes TV Series with prior peak rating of atleast 7**
+**Note: This plot only includes TV Series with prior peak rating of at least 7**
 
 Finally, I look at the range of ratings for 100 most popular completed series. Similar plot has been created in the past <a href="https://github.com/OrganicIrradiation/vistvfinales" target="_blank" rel="nofollow noopener noreferrer">here</a> with data last updated in 2017. This also allows us to see consistency (as used <a href="https://letstalkdata.com/2013/02/imdb-television-series-data/" target="_blank" rel="nofollow noopener noreferrer">here</a>) among series as well as to compare various series and how well did they end. The red points indicate the median and 1st and 3rd quartiles while blue cross is the finale rating. Most of the series had good finales and finished strong but some were very bad. Some of the series with high difference between median episode and finale rating (finales worse than median episode rating) are *Dexter*, *Game of Thrones*, *House of Cards*, *True Blood*, and *Two and Half Men*. 
 
@@ -103,6 +103,9 @@ Finally, I look at the range of ratings for 100 most popular completed series. S
 ![Image](/images/fig11.png)
 
 This concludes part 1 of the IMDB TV Series Analysis. Part 2 will be coming up soon which includes analysis of various variables over time - like genres, new series, and tests for evidence for ageism and rating discrimination over gender (shows with lead actor v/s lead actress).
+
+
+To see this post on medium, click <a href="https://medium.com/@hiteshsabnani3/imdb-tv-show-data-analysis-4961ef39d174" target="_blank" rel="nofollow noopener noreferrer">here</a>.
 
 {% if page.comments == true %}
   {% include comments.html %}

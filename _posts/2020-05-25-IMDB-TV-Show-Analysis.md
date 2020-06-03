@@ -31,7 +31,7 @@ I begin by looking at some exploratory plots for distribution of ratings. In Fig
 
 First, I wanted to compare differences between show ratings and their episodes. Instead of looking at show ratings, we can also look at the median rating of their episodes. In theory, both of these ratings should be close to each other. So, in Fig 2 below, I created an interactive plot of TV show rating against median episode rating for shows with at least 5,000 votes and with median episode votes of at least 250. This allows us to create a definition of underrated and overrated shows - the shows for which majority of the episodes are rated below the show rating is overrated and similarly, if majority of episodes are higher than show rating, it is underrated. In Fig 2, overrated shows are above the green equivalence line and underrated series are below. I define a simple measure of deviation between show rating and median episode rating (Relative rating deviation). 
 
-$$\delta$$ $$(\%) = (Show Rating - Median Episode Rating)$$ $$/$$ $$Series Rating * 100 \% $$
+$$\delta$$ $$(\%) = (Show Rating - Median Episode Rating)$$ $$/$$ $$Show Rating * 100 \% $$
 
 Higher and positive values of $$\delta$$ imply more overratedness and lower and negative values imply underratedness. According to this measure, we can see some of the heavily underrated shows - *Batwoman* $$(\delta = -71.43)$$, *Roswell, New Mexico* $$(\delta = -36.07)$$, and *Shadowhunters* $$(\delta = -34.85)$$. Similarly, among the most overrated shows are *The Simpsons* $$(\delta = 19.54)$$, *Masters of Horror* $$(\delta = 16)$$, and *Twilight Zone* $$(\delta = 15)$$.
 

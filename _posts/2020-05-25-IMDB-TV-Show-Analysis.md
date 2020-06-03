@@ -65,7 +65,7 @@ Next, I look at rating consistency in TV episodes.  For a measure of rating cons
 
 $$\gamma$$ $$(\%) = Standard Deviation Episode Rating$$ $$/$$ $$Mean Episode Rating * 100 \% $$
 
-Higher values of $$\gamma$$ imply less consistency. Looking at Fig 6 below, it can be seen that shows with more episodes tend to have higher $$\gamma$$. Excluding miniseries, among the least consistent shows are *Are You Afraid of the Dark?* $$(\gamma = 24.72)$$, *House of Cards* $$(\gamma = 18.56)$$, and *Chicago Med* $$(\gamma = 15.97)$$. The most consistent tv series are shorter series like *Cosmos* $$(\gamma = 1.14)$$ and *Gyspy* $$(\gamma = 1.24)$$. Among series with at least 100 episodes, *Rules of Engagement* $$(\gamma = 2.34)$$ and *2 Broke Girls* $$(\gamma = 2.66)$$ are the most consistent. The green line has the slope of regression ($$\gamma$$ v/s logarithm of total episodes) while the white line ignores genres which tend to have less episodes like  *Biography*, *Documentary*, and *History*. We can see that positive relationship exists even in absence of those genres. It is not entirely surprising that longer series will have more chances to have outlier episodes (either positive or negative) which tend to reduce the show consistency.
+Higher values of $$\gamma$$ imply less consistency. Looking at Fig 6 below, it can be seen that shows with more episodes tend to have higher $$\gamma$$. Excluding miniseries, among the least consistent shows are *Are You Afraid of the Dark?* $$(\gamma = 24.72)$$, *House of Cards* $$(\gamma = 18.56)$$, and *Chicago Med* $$(\gamma = 15.97)$$. The most consistent TV series are shorter series like *Cosmos* $$(\gamma = 1.14)$$ and *Gypsy* $$(\gamma = 1.24)$$. Among series with at least 100 episodes, *Rules of Engagement* $$(\gamma = 2.34)$$ and *2 Broke Girls* $$(\gamma = 2.66)$$ are the most consistent. The green line has the slope of regression ($$\gamma$$ v/s logarithm of total episodes) while the white line ignores genres which tend to have less episodes like  *Biography*, *Documentary*, and *History*. We can see that positive relationship exists even in absence of those genres. It is not entirely surprising that longer series will have more chances to have outlier episodes (either positive or negative) which tend to reduce the show consistency.
 
 {% include fig6.html %}
 
@@ -102,7 +102,7 @@ Finally, I look at the range of ratings for 100 most popular completed series. S
 
 ![Image](/images/fig11.png)
 
-This concludes part 1 of the IMDB TV Series Analysis. Part 2 will be coming up soon which includes analysis of various variables over time - like genres, new series, and tests for evidence for ageism and rating discrimination over gender (shows with lead actor v/s lead actress).
+This concludes part 1 of the IMDB TV Show Analysis. Part 2 will be coming up soon which includes analysis of various variables over time - like genres, new series, and tests for evidence for ageism and rating discrimination over gender (shows with lead actor v/s lead actress).
 
 
 To see this post on medium, click <a href="https://medium.com/@hiteshsabnani3/imdb-tv-show-data-analysis-4961ef39d174" target="_blank" rel="nofollow noopener noreferrer">here</a>.

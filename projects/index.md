@@ -23,4 +23,9 @@ Details here:
 **IMDB TV Show Analysis**   
 This project looked at various questions for IMDB TV Show dataset - like if certain TV shows are overrated / underrated, their consistency, did the TV series cancel early or was too long, analysis of variables over time - like genres, new series; evidence for ageism and rating discrimination over gender of lead actor.   
 Details here:
-<a href="https://sabnanih.github.io/blog/2020/05/25/IMDB-TV-Show-Analysis" target="_blank" rel="nofollow">IMDB Analysis Part 1</a>
+<a href="/blog/2020/05/25/IMDB-TV-Show-Analysis" target="_blank" rel="nofollow">IMDB Analysis Part 1</a>  
+
+**COVID-19 Progression by Country**   
+This is a simple visualization of COVID-19 progression from January to June 2020 using Tableau. 
+Details here:
+<a href="/blog/2020/06/09/COVID19-Progression-by-Country" target="_blank" rel="nofollow">COVID-19 Visualization</a>

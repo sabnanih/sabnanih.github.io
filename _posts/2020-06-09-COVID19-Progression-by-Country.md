@@ -17,7 +17,7 @@ comments: true
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-Here is a simple visualization for COVID-19 progression from $$20th$$ $$January$$ to $$8th$$ $$June$$ $$2020$$. The visualization includes daily new cases and deaths. The data used is available <a href="https://github.com/owid/covid-19-data" target="_blank" rel="nofollow noopener noreferrer">here</a>. To view the visualization, click the movie below. Additionally, if viewing on Desktop, you can checkout the interactive <a href="/proj_files/covid19.html" target="_blank" rel="nofollow">version</a>. This visualization was developed using Tableau Public.
+Here is a simple visualization for COVID-19 progression from $$20th$$ $$January$$ to $$8th$$ $$June$$ $$2020$$. It includes daily new cases and deaths. The data used is available <a href="https://github.com/owid/covid-19-data" target="_blank" rel="nofollow noopener noreferrer">here</a>. To view, click the movie below. Additionally, if viewing on Desktop, you can checkout the interactive <a href="/proj_files/covid19.html" target="_blank" rel="nofollow">version</a>. This visualization was developed using Tableau Public.
 
  <video controls>
   <source src="/proj_files/COVID19.mov" type="video/mp4">

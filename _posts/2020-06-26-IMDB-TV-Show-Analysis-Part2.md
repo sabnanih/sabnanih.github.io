@@ -1,5 +1,5 @@
 ---
-title: IMDB TV Show Analysis: Part 2
+title: IMDB TV Show Analysis - Part 2
 comments: true
 ---
 

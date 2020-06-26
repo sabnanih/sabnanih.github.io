@@ -104,7 +104,7 @@ Finally, I look at the range of ratings for 100 most popular completed series. S
 
 ![Image](/images/fig11.png)
 
-This concludes part 1 of the IMDB TV Show Analysis. Part 2 of the analysis can be found <a href="/blog/2020/06/26/IMDB-TV-Show-Analysis-Part2" target="_blank" rel="nofollow">here</a> which includes analysis of various variables over time - like genres, new series, and tests for evidence for ageism and rating discrimination over gender (shows with lead actor v/s lead actress).
+This concludes part 1 of the IMDB TV Show Analysis. The code used for this analysis (and part 1) can be found <a href="https://github.com/sabnanih/imdb-tv-analysis/blob/master/analysis.ipynb" target="_blank" rel="nofollow noopener noreferrer">here</a>. Part 2 of the analysis can be found <a href="/blog/2020/06/26/IMDB-TV-Show-Analysis-Part2" target="_blank" rel="nofollow">here</a> which includes analysis of various variables over time - like genres, new series, and tests for evidence for ageism and rating discrimination over gender (shows with lead actor v/s lead actress).
 
 
 To see this post on medium, click <a href="https://medium.com/@hiteshsabnani3/imdb-tv-show-data-analysis-4961ef39d174" target="_blank" rel="nofollow noopener noreferrer">here</a>.

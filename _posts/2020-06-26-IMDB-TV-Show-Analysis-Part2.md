@@ -84,7 +84,8 @@ Fig 10 below is an interactive box plot (with points denoting TV shows) grouped 
 
 **Note: For this interactive plot, hover over the points to see additional information (or tap if on mobile). Box selection allows zooming in, and double clicking resets the zoom to default.**
 
-This concludes part 2 of the IMDB TV Show Analysis. The code used for this analysis (and part 1) can be found <a href="https://github.com/sabnanih/imdb-tv-analysis/blob/master/analysis.ipynb" target="_blank" rel="nofollow noopener noreferrer">here</a>.
+This concludes part 2 of the IMDB TV Show Analysis. The code used for this analysis (and part 1) can be found <a href="https://github.com/sabnanih/imdb-tv-analysis/blob/master/analysis.ipynb" target="_blank" rel="nofollow noopener noreferrer">here</a>. Part 1 of the analysis which deals with overrated/underrated TV shows, consistency of TV shows, and whether shows were canceled early or went too far, can be found <a href="/blog/2020/05/25/IMDB-TV-Show-Analysis" target="_blank" rel="nofollow">here</a>.
+
 
 {% if page.comments == true %}
   {% include comments.html %}

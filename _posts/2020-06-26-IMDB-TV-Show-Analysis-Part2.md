@@ -19,7 +19,7 @@ comments: true
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-This post is the Part 2 of the IMDB TV show analysis. Part 1 of the analysis can be found <a href="/blog/2020/05/25/IMDB-TV-Show-Analysis" target="_blank" rel="nofollow">here</a>. In this post, I primarily work on answering 4 questions - which genres have become more or less popular over time, have their been changes in proportion of new TV shows over time, lead age over time, and if their is gender bias during voting on shows - more specifically if shows targeted towards females are voted higher or lower than males.
+This post is the Part 2 of the IMDB TV show analysis. Part 1 of the analysis can be found <a href="/blog/2020/05/25/IMDB-TV-Show-Analysis" target="_blank" rel="nofollow">here</a>. In this post, I primarily work on answering 4 questions - which genres have become more or less popular over time, have there been changes in proportion of new TV shows over time, lead age over time, and if there is gender bias during voting on shows - more specifically if shows targeted towards females are voted higher or lower than males.
 
 ## Introduction
 

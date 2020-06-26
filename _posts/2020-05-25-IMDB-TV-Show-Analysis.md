@@ -21,6 +21,8 @@ comments: true
 
 In this post, I present the results of analysis of TV shows using <a href="https://datasets.imdbws.com" target="_blank" rel="nofollow noopener noreferrer">IMDB data</a>. IMDB is a large online database of information about movies, TV shows, video games among other content. For this analysis, I have focused on ratings for TV Series, TV miniseries, and episodes. The data was downloaded on $$14th$$ $$May$$ $$2020$$. Complete dataset documentation can be found <a href="https://www.imdb.com/interfaces/" target="_blank" rel="nofollow noopener noreferrer">here</a>. In the rest of the post, I discuss primarily 3 questions - are certain TV shows overrated or underrated, which TV shows are among the most or least consistent, and which TV series canceled too early and which ones went on far too long.
 
+Part 2 of the analysis which includes analysis of various variables over time - like genres, new series, and tests for evidence for ageism and rating discrimination over gender (shows with lead actor v/s lead actress), can be found <a href="/blog/2020/06/26/IMDB-TV-Show-Analysis-Part2" target="_blank" rel="nofollow">here</a>.
+
 ## Introduction
 
 I begin by looking at some exploratory plots for distribution of ratings. In Fig 1 below, it can be seen through the histogram of ratings that they are somewhat negatively skewed but most of them are between 6 and 9. Among the popular TV shows (with at least 5,000 votes), the distribution is much more concentrated in 6-9 range.
@@ -102,7 +104,7 @@ Finally, I look at the range of ratings for 100 most popular completed series. S
 
 ![Image](/images/fig11.png)
 
-This concludes part 1 of the IMDB TV Show Analysis. Part 2 will be coming up soon which includes analysis of various variables over time - like genres, new series, and tests for evidence for ageism and rating discrimination over gender (shows with lead actor v/s lead actress).
+This concludes part 1 of the IMDB TV Show Analysis. Part 2 of the analysis can be found <a href="/blog/2020/06/26/IMDB-TV-Show-Analysis-Part2" target="_blank" rel="nofollow">here</a> which includes analysis of various variables over time - like genres, new series, and tests for evidence for ageism and rating discrimination over gender (shows with lead actor v/s lead actress).
 
 
 To see this post on medium, click <a href="https://medium.com/@hiteshsabnani3/imdb-tv-show-data-analysis-4961ef39d174" target="_blank" rel="nofollow noopener noreferrer">here</a>.

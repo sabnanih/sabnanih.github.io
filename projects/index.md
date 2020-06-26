@@ -21,7 +21,8 @@ This project used Linear Regression, k-Nearest Neighbor Regression, and Decision
 
 **IMDB TV Show Analysis**   
 This project looked at various questions for IMDB TV Show dataset - like if certain TV shows are overrated / underrated, their consistency, did the TV series cancel early or was too long, analysis of variables over time - like genres, new series; evidence for ageism and rating discrimination over gender of lead actor.   
-<a href="/blog/2020/05/25/IMDB-TV-Show-Analysis" target="_blank" rel="nofollow">IMDB Analysis Part 1</a>  
+<a href="/blog/2020/05/25/IMDB-TV-Show-Analysis" target="_blank" rel="nofollow">IMDB TV Analysis Part 1</a>  
+<a href="/blog/2020/06/26/IMDB-TV-Show-Analysis-Part2" target="_blank" rel="nofollow">IMDB TV Analysis Part 2</a>  
 
 **COVID-19 Progression by Country**   
 This is a simple visualization of COVID-19 progression from January to June 2020 using Tableau.   

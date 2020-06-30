@@ -15,7 +15,7 @@ comments: true
 
 
 <script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
 In this post, I present the results of analysis of TV shows using <a href="https://datasets.imdbws.com" target="_blank" rel="nofollow noopener noreferrer">IMDB data</a>. IMDB is a large online database of information about movies, TV shows, video games among other content. For this analysis, I have focused on ratings for TV Series, TV miniseries, and episodes. The data was downloaded on $$14th$$ $$May$$ $$2020$$. Complete dataset documentation can be found <a href="https://www.imdb.com/interfaces/" target="_blank" rel="nofollow noopener noreferrer">here</a>. In the rest of the post, I discuss primarily 3 questions - are certain TV shows overrated or underrated, which TV shows are among the most or least consistent, and which TV series canceled too early and which ones went on far too long.

@@ -16,7 +16,7 @@ comments: true
 
 
 <script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
 This post is the Part 2 of the IMDB TV show analysis. Part 1 of the analysis which deals with overrated/underrated TV shows, consistency of TV shows, and whether shows were canceled early or went too far, can be found <a href="/blog/2020/05/25/IMDB-TV-Show-Analysis" target="_blank" rel="nofollow">here</a>. In this post, I primarily work on answering 4 questions - which genres have become more or less popular over time, have there been changes in proportion of new TV shows over time, lead age over time, and if there is gender bias during voting on shows - more specifically if shows targeted towards females are voted higher or lower than males.
@@ -86,6 +86,8 @@ Fig 10 below is an interactive box plot (with points denoting TV shows) grouped 
 
 This concludes part 2 of the IMDB TV Show Analysis. The code used for this analysis (and part 1) can be found <a href="https://github.com/sabnanih/imdb-tv-analysis/blob/master/analysis.ipynb" target="_blank" rel="nofollow noopener noreferrer">here</a>. Part 1 of the analysis which deals with overrated/underrated TV shows, consistency of TV shows, and whether shows were canceled early or went too far, can be found <a href="/blog/2020/05/25/IMDB-TV-Show-Analysis" target="_blank" rel="nofollow">here</a>.
 
+
+To see this post on medium, click <a href="https://towardsdatascience.com/imdb-television-show-data-analysis-part-2-39ebf47977ff" target="_blank" rel="nofollow noopener noreferrer">here</a>.
 
 {% if page.comments == true %}
   {% include comments.html %}
